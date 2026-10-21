@@ -1,0 +1,11 @@
+UD 1.1 · HTML BÁSICO - ÍNDICE
+
+11_1.html -> Estructura mínima de una página: DOCTYPE, html lang, head (meta charset, title) y body (h1, p).
+
+11_2.html -> Metadatos (description, keywords), comentarios <!-- --> y varios párrafos.
+
+11_3.html -> Entidades HTML (&lt; &amp;) para escribir < y & + validación en W3C.
+
+11_4.html -> HTML con errores corregido hasta que valida (etiquetas sin cerrar, mal anidadas...).
+
+errores11_4.txt -> Lista de los errores del ejercicio 4 y qué era cada uno.

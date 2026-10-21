@@ -1,0 +1,8 @@
+en la linea 7 faltaba cerrar el h1
+en la linea 9 faltaba cerrar el parrafo
+en linea 4 faltaba cerrar el titulo
+los <li> deben ir cerrados
+La linea 1 ponia htm en vex de HTML
+en lan=es la palabra "es" debe ir entre comillado y "lan" se escribe como "lang"
+en la linea 8 las etiquetas estaban en un orden erroneo 
+faltaba el <meta charset="UTF-8">
