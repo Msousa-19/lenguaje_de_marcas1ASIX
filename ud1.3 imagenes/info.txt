@@ -1,0 +1,9 @@
+UD 1.3 · IMÁGENES - ÍNDICE
+ 
+13_1.html -> Imagen local: img con ruta relativa (img/), alt descriptivo y width en píxeles, con un párrafo debajo explicando qué se ve.
+ 
+13_2.html -> Galería: 4 img con alt dentro de un mismo div, con width="40%" (el porcentaje se calcula respecto al div) y un h2 como título.
+ 
+13_3.html -> Texto envolvente: img con style float: left y margin, tres párrafos que la rodean y un div con clear: both para cerrar el flotado.
+ 
+13_4.html -> Tarjeta de producto: una imagen local y otra remota (URL absoluta) con width y height, border CSS dentro de style, comentarios HTML explicando local frente a remota, y del y strong para los precios.

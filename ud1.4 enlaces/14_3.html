@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Guía básica de HTML</title>
+</head>
+<body>
+    <h1 id="inicio" style="color: #0a0a0a; background-color: #ecf0f1; font-size: 30px; text-align: center; border: 3px solid goldenrod;">Guía básica de HTML</h1>
+
+    <div style="background-color: #ecf0f1; border: 3px double goldenrod;">
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#estructura">Estructura de un documento HTML</a></li>
+            <li><a href="#texto">Formato de texto</a></li>
+            <li><a href="#imagenes">Imágenes</a></li>
+            <li><a href="#enlaces">Enlaces</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <h2 id="estructura">Estructura de un documento HTML</h2>
+    <p>HTML son las siglas de HyperText Markup Language. Es un lenguaje para crear documentos formados por marcas que el navegador interpreta, y como es hipertexto permite definir enlaces que llevan de un documento a otros.</p>
+    <p>Todo documento empieza con la declaración <code>DOCTYPE</code> y tiene como elemento raíz <code>&lt;html&gt;</code>, que contiene dos partes: <code>&lt;head&gt;</code>, con información del documento como el <code>&lt;title&gt;</code> (de uso obligatorio y visible en el navegador), las etiquetas <code>&lt;meta&gt;</code> o las hojas de estilo, y <code>&lt;body&gt;</code>, con el contenido de la página.</p>
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+
+    <h2 id="texto">Formato de texto</h2>
+    <p>La forma más sencilla de estructurar un texto es separarlo en párrafos con <code>&lt;p&gt;</code> y poner títulos con los encabezados <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>, de mayor a menor graduación. Los encabezados se muestran en negrita con un tamaño de fuente concreto, y al terminar se genera un salto de línea automáticamente.</p>
+    <p>Para marcar partes importantes del texto hay etiquetas como <strong>strong</strong> para lo importante, <em>em</em> para enfatizar, <del>del</del> para el texto tachado o <mark>mark</mark> para remarcarlo. Si se aplican varias etiquetas a un mismo texto, se cierran en orden inverso al que se abrieron.</p>
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+
+    <h2 id="imagenes">Imágenes</h2>
+    <p>Las imágenes se insertan con la etiqueta <code>&lt;img&gt;</code> y su atributo <code>src</code>, que indica la URL de la imagen, relativa o absoluta. Es un elemento vacío, por lo que no necesita etiqueta de cierre, y es un elemento de tipo línea. Los formatos reconocidos por la mayoría de navegadores son jpg, gif, png y SVG.</p>
+    <p>Todas las imágenes deben llevar el atributo <code>alt</code>, con un texto alternativo que se muestra si la imagen no se encuentra. El tamaño se controla con <code>width</code> y <code>height</code>, en píxeles o en porcentaje, y el borde se añade con la propiedad CSS <code>border</code> dentro del atributo <code>style</code>.</p>
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+
+    <h2 id="enlaces">Enlaces</h2>
+    <p>Los enlaces se crean con la etiqueta <code>&lt;a&gt;</code> y su atributo <code>href</code>, que indica el destino. Tienen tres partes: el destino, el rótulo, que es la parte visible para el usuario, y el objetivo, que con <code>target="_blank"</code> hace que la página se abra en una pestaña nueva.</p>
+    <p>Las URL absolutas incluyen protocolo, servidor y ruta, mientras que las relativas omiten alguna parte. Es aconsejable usar URL relativas, porque si algún día movemos el sitio web no hay que cambiar el código. Para saltar a un punto de la misma página se pone un <code>id</code> en el destino y en el <code>href</code> el símbolo # seguido de ese id, que es justo lo que hace este índice.</p>
+    <p><a href="#inicio">↑ Volver al índice</a></p>
+</body>
+</html>

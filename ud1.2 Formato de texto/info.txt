@@ -1,0 +1,9 @@
+UD 1.2 · FORMATO DE TEXTO - ÍNDICE
+ 
+12_1.html -> Encabezados y párrafos: secciones con h2 y una subsección con h3 dentro de una de ellas.
+ 
+12_2.html -> Marcado de texto: strong, em, mark, blockquote, del e ins (precios), br y hr.
+ 
+12_3.html -> Etiquetas semánticas: dfn, time con datetime, abbr con title, code, kbd, sup y address.
+ 
+12_4.html -> Mini CV con estilos inline: atributo style (color, background-color, font-size), span, strong, b, i y address con enlaces tel y correo.
