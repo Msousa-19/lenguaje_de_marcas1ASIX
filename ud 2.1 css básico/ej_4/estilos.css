@@ -1,0 +1,12 @@
+
+#corp {
+    color: blue;
+}
+
+a[target] {
+    color: red;
+}
+
+p[class] {
+    color: green;
+}
