@@ -1,0 +1,19 @@
+/* titulo */
+#titulo{
+    color: rgb(21, 176, 174);
+}
+/* h2 (sub apartados) */
+h2 {
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    font-size: 26px;
+}
+/* Color azul para Lua */
+.lenguaje-lua {
+    color: blue;
+}
+
+/* Color verde para Python */
+.lenguaje-python {
+    color: green;
+}
