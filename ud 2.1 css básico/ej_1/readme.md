@@ -1,0 +1,1 @@
+La mejor es la de externo porque css sirve justamente para seprar la peagina de los estilos y la más desaconsejable es la primera porque con el estilo dentro de cada elemento hay que repetirlo en cada etiqueta y cualquier cambio obliga a tocar todos esos elementos
