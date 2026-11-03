@@ -1,0 +1,6 @@
+Índice UD1.4 · Enlaces
+
+ac1: agregar enlaces externos
+ac2: enlazar entre páginas con rutas relativas
+ac3: crear un índice con anclas dentro de una página
+ac4: enlazar correo (mailto), descargar archivos (download) y hacer un menú de navegación
