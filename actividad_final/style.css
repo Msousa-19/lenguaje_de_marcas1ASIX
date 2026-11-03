@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+/* ---------- Ajustes generales ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #222;
+}
+
+/* ---------- Encabezado ---------- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #eee;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+header .titulos {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #5a0a0a;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0b4a0b;
+}
+
+/* ---------- Menú de navegación ---------- */
+nav {
+    margin: 4px 0;
+    padding: 0.25rem 0;
+    background-color: #eee;
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 0.4rem;
+    color: #444;
+    text-decoration: none;
+    /* Borde transparente para que el menú no "salte" al hacer hover */
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover {
+    color: red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+/* ---------- Sección con las redes sociales ---------- */
+/* font-size: 0 elimina el hueco que el navegador deja entre elementos inline-block */
+section {
+    font-size: 0;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.333%;
+    min-height: 9rem;
+    padding: 1rem;
+    border: 2px solid #fff;
+    font-size: 1rem;
+}
+
+/* Un color distinto para cada article */
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+
+article:nth-child(3) {
+    background-color: rgba(208, 61, 107, 0.5);
+}
+
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+
+article img {
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-right: 0.6rem;
+}
+
+/* overflow: hidden mantiene el texto en su columna junto a la imagen */
+article .texto {
+    overflow: hidden;
+}
+
+article h2 {
+    margin: 0 0 0.4rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+article p {
+    margin: 0;
+    font-size: 0.72rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* ---------- Pie de página ---------- */
+footer {
+    margin-top: 4px;
+    background-color: #eee;
+    text-align: center;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+footer .redes a {
+    display: block;
+}
+
+footer img {
+    display: block;
+    position: relative;
+    width: 28px;
+    height: 28px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0.3rem 0;
+    border-top: 3px solid #fff;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    color: #555;
+}
+
+/* ---------- Imágenes de redes sociales: efecto al pasar el ratón ---------- */
+article img,
+footer img {
+    transition: transform 0.3s ease;
+}
+
+article img:hover,
+footer img:hover {
+    transform: scale(1.25);
+    z-index: 1;
+}
+
+/* ---------- Adaptación a pantallas pequeñas ---------- */
+@media (max-width: 700px) {
+    article {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    article {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+}
