@@ -1,0 +1,25 @@
+body {
+    background-color: darksalmon;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 50%;
+    border: 3px solid white;
+}
+
+label {
+    font-weight: bold;
+}
+
+label.op {
+    font-weight: normal;
+}
+
+td.c {
+    text-align: center;
+}

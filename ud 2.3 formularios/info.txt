@@ -1,0 +1,18 @@
+Indice · Formulario de alta de usuario
+
+Formulario (form): agrupa los campos; method="POST" envía los datos ocultos, action="#" no manda a ningún sitio y enctype="multipart/form-data" permite enviar archivos
+Tabla (table, tr, td): coloca los campos en filas y columnas, y colspan="2" hace que una celda ocupe las dos columnas
+Etiquetas (label): texto que acompaña a cada campo, y al pulsarlo se activa el campo gracias a for e id
+Texto (type="text"): nombre y apellidos
+Solo lectura (readonly + value): el identificador viene escrito y no se puede modificar
+Contraseña (type="password"): oculta lo que se escribe
+Email (type="email"): comprueba que el texto sea un correo
+Botones de radio (type="radio"): elegir solo una opción (mismo name); checked deja Mujer marcada por defecto
+Casillas (type="checkbox"): elegir varias opciones; checked deja Lectura marcada por defecto
+Desplegable (select + option): elegir el país; selected deja España por defecto
+Archivo (type="file"): subir la foto
+Área de texto (textarea): comentarios en varias líneas; cols y rows fijan el tamaño y placeholder muestra el texto de ayuda
+Reiniciar (type="reset"): vacía el formulario
+Enviar (type="submit"): manda los datos
+title: texto de ayuda que sale al pasar el ratón por el campo
+name: nombre con el que viaja cada dato al enviarlo
