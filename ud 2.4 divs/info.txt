@@ -1,0 +1,7 @@
+Índice UD 2.4 Divs
+
+Caja: contenido, padding, border, margin
+Ancho total de una caja
+Centrar con margin: 0 auto
+display: block, inline-block, flex, inline, none
+margin vs padding
