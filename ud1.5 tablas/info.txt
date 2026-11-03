@@ -1,0 +1,6 @@
+Índice UD1.5 · Tablas
+
+ac1: crear una tabla básica (horario semanal) con encabezados y título
+ac2: dar estilo a la tabla con bordes fusionados, fondo en encabezados y texto centrado
+ac3: combinar celdas (colspan y rowspan) en una lista de precios con filas de colores alternos
+ac4: tabla completa con cabecera, cuerpo y pie de totales, título abajo, separación entre celdas, alineación vertical y celdas vacías
