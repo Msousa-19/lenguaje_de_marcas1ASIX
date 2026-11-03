@@ -1,0 +1,6 @@
+/* Paso 1 y 2 (versión larga):
+ul { list-style-image: url(img/icono.png); list-style-position: outside; }
+*/
+
+/* Con inside, las líneas largas se alinean bajo la viñeta; con outside, la viñeta queda fuera y el texto forma un bloque alineado, más legible. */
+ul { list-style: square outside url(icono.png); }

@@ -1,0 +1,7 @@
+UD 2.2 · LISTAS - ÍNDICE
+
+act1-> Ver cómo crear listas ordenadas, desordenadas y anidadas, y cambiar el tipo de marca (cuadrado, números romanos, círculo).
+
+act2-> Ver cómo poner viñetas con iconos personalizados, cómo cambiar su posición (dentro/fuera) y la escritura abreviada con tipo de respaldo.
+
+act3-> Ver cómo crear un menú de navegación horizontal con botones tipo píldora, sin viñetas, con bordes, colores, espaciado y efecto al pasar el ratón.
