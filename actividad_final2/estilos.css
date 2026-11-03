@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  background: #e9efe9;
+  color: #222;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.contenedor {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* Cabecera (relative: el sello se coloca respecto a ella) */
+header {
+  position: relative;
+  background: #2f5d46;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 18px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 6px 0 0;
+  font-size: 13px;
+}
+
+/* 2. Sello: absolute respecto a la cabecera */
+.sello {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 84px;
+  height: 84px;
+  box-sizing: border-box;
+  padding: 29px 8px 0;
+  border-radius: 50%;
+  background: #f08a24;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 13px;
+  text-align: center;
+}
+
+/* 1. Menú: sticky y por encima del contenido */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #2f5d46;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #f08a24;
+}
+
+/* Secciones (static: posición normal) */
+section {
+  position: static;
+  padding: 16px 20px 10px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  color: #2f5d46;
+  font-size: 18px;
+}
+
+section p {
+  margin: 0 0 16px;
+}
+
+.foto1 { background: #8fb996; }
+.foto2 { background: #a7c5d9; }
+.foto3 { background: #e5c07b; }
+
+/* 3. Tarjetas: relative + overflow hidden; etiqueta absolute */
+.tarjeta {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 270px;
+  margin-right: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.tarjeta .foto {
+  height: 80px;
+}
+
+.nivel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  background: #f08a24;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.info {
+  padding: 10px;
+}
+
+.info h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.info p {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* 4. Tarjeta central: sube 12 px sin mover a las vecinas */
+.tarjeta.central {
+  position: relative;
+  top: -12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* 5. Galería: polaroids absolute que se solapan */
+.galeria {
+  position: relative;
+  height: 280px;
+}
+
+.polaroid {
+  position: absolute;
+  width: 280px;
+  height: 210px;
+  border: 6px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.p1 { left: 30px;  top: 0; }
+.p2 { left: 250px; top: 52px; z-index: 2; }
+.p3 { left: 470px; top: 0; }
+
+.polaroid:hover {
+  z-index: 3;
+}
+
+.pie {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 6px 8px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 11px;
+}
+
+/* 6. Opiniones: caja de 170 px con scroll */
+.caja-opiniones {
+  box-sizing: border-box;
+  height: 170px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.caja-opiniones article {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+}
+
+/* Pie */
+footer {
+  padding: 20px 0 30px;
+  text-align: center;
+  font-size: 13px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* 7. Botón Subir: fixed en la esquina inferior derecha */
+.subir {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 8px 14px;
+  border-radius: 16px;
+  background: #f08a24;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
