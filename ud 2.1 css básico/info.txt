@@ -1,0 +1,7 @@
+Índice UD2.1 · CSS Básico
+
+ac1: aplicar el mismo estilo de tres formas (atributo style, etiqueta <style> y archivo externo) y comparar cuál conviene más
+ac2: primeras reglas de estilo con selector universal y de tipo, y comprobar si el orden de las reglas cambia el resultado
+ac3: elegir qué elementos se estilizan con selectores de descendientes y de clase
+ac4: selectores de id (y por qué no se repiten ni se recomiendan) y de atributo
+ac5: predecir qué regla gana cuando chocan varias (especificidad) y pasar los estilos style de una página anterior a un CSS externo ordenado
