@@ -1,0 +1,64 @@
+/*selectores*/
+*{color:rgb(0, 0, 0)} /*universal*/
+p{color:red} /*elemento*/
+#prueba_id{color:green} /*id*/
+.iconos{color:purple} /*clase*/
+p.especial{color:rgb(99, 99, 45)} /*elemento y clase*/
+li p{color:orange} /*descendiente*/
+/*listas*/
+.lista_estilo{
+    list-style-type: none; /*(sin viñetas)*/
+}
+/*list-style-image/ (se utiliza para establecer una imagen como viñeta) */
+.imagen_viñeta{
+    list-style-image: url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=24&h=24&fit=crop&crop=center");
+}
+/*Display (modificar comportamiento de las listas)*/
+.menu_flex {
+    display:flex;
+    justify-content: space-around; /*distribuye de forma equitativa el espacio*/
+    align-items: center; /*alinear los elementos de la lista*/
+    list-style-type: none; /*elimina las viñetas*/
+    padding: 0; /*relleno entre el contenido y el contenedor*/
+    background-color: #c7c7c7; /*color de fondo*/
+}
+/*estilos de fuentes*/
+p {
+    font-family: Arial, sans-serif; /*fuente de texto*/
+    font-size: 16px; /*tamaño de fuente (px, % o pt)*/
+}
+/*
+apariencia del texto
+p{
+text-align: center; (alinear el texto)
+line-height: 1.5; (altura de línea)
+letter-spacing: 2px; (espaciado entre letras)}
+*/
+/*border*/
+.borde_negro{
+    border: 9px solid rgb(48, 199, 179);
+}
+.sombra{
+    box-shadow: 2px 2px 5px rgba(80, 117, 196, 0.3);
+}
+/*fondo*/
+.parrafo_salmon{
+    background-color: darksalmon;
+}
+/*enlaces*/
+.enlace_sin_subrayar{
+    color:aquamarine;
+    text-decoration: none;
+}
+a:link {color:red;text-decoration: overline;} /*no visitado*/
+a:visited {color:black;text-decoration: none;}/*visitado*/
+a:hover {color:blue;font-size: 22px;} /*al pasar el raton*/
+a:active {color:grey}/*al pulsar*/
+/*mostrar enlace como botón*/
+a.boton {
+    text-decoration: none;
+    background: #eee;
+    color:#222;
+    border: 1px inset #000;
+    padding: .1em .5em;
+}
