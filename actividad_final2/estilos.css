@@ -12,7 +12,7 @@ body {
   background: #fff;
 }
 
-/* Cabecera (relative: el sello se coloca respecto a ella) */
+/*Cabecera*/
 header {
   position: relative;
   background: #2f5d46;
@@ -31,7 +31,7 @@ header p {
   font-size: 13px;
 }
 
-/* 2. Sello: absolute respecto a la cabecera */
+/* 2. Sello*/
 .sello {
   position: absolute;
   top: 16px;
@@ -101,7 +101,7 @@ section p {
 .foto2 { background: #a7c5d9; }
 .foto3 { background: #e5c07b; }
 
-/* 3. Tarjetas: relative + overflow hidden; etiqueta absolute */
+/* 3. Tarjetas*/
 .tarjeta {
   position: relative;
   overflow: hidden;
