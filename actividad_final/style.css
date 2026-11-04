@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
 
-/* ---------- Ajustes generales ---------- */
 * {
     box-sizing: border-box;
 }
@@ -13,7 +12,7 @@ body {
     color: #222;
 }
 
-/* ---------- Encabezado ---------- */
+/*Encabezado*/
 header {
     display: flex;
     align-items: center;
@@ -45,7 +44,7 @@ header h2 {
     color: #0b4a0b;
 }
 
-/* ---------- Menú de navegación ---------- */
+/*Menú de navegación*/
 nav {
     margin: 4px 0;
     padding: 0.25rem 0;
@@ -71,9 +70,7 @@ nav a:hover {
     border-bottom: 1px solid red;
 }
 
-/* ---------- Sección con las redes sociales ---------- */
-/* font-size: 0 elimina el hueco que el navegador deja entre elementos inline-block */
-section {
+/*Sección con las redes sociales*/
     font-size: 0;
 }
 
@@ -86,8 +83,6 @@ article {
     border: 2px solid #fff;
     font-size: 1rem;
 }
-
-/* Un color distinto para cada article */
 article:nth-child(1) {
     background-color: rgba(162, 179, 188, 0.5);
 }
@@ -111,14 +106,12 @@ article:nth-child(5) {
 article:nth-child(6) {
     background-color: rgba(156, 154, 203, 0.5);
 }
-
 article img {
     float: left;
     width: 45px;
     height: 45px;
     margin-right: 0.6rem;
 }
-
 /* overflow: hidden mantiene el texto en su columna junto a la imagen */
 article .texto {
     overflow: hidden;
@@ -137,7 +130,7 @@ article p {
     line-height: 1.4;
 }
 
-/* ---------- Pie de página ---------- */
+/*Pie de página*/
 footer {
     margin-top: 4px;
     background-color: #eee;
@@ -170,7 +163,7 @@ footer p {
     color: #555;
 }
 
-/* ---------- Imágenes de redes sociales: efecto al pasar el ratón ---------- */
+/*Imágenes de redes sociales: efecto al pasar el ratón*/
 article img,
 footer img {
     transition: transform 0.3s ease;
@@ -182,7 +175,7 @@ footer img:hover {
     z-index: 1;
 }
 
-/* ---------- Adaptación a pantallas pequeñas ---------- */
+
 @media (max-width: 700px) {
     article {
         width: 50%;
