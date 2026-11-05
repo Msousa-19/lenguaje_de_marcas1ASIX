@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UD3.1 · Ej3 · Tarjeta de producto y caja con scroll</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Tarjeta de producto y caja con scroll</h1>
+
+  <h2>Parte A · Etiqueta sobre la tarjeta</h2>
+
+  <div class="fila">
+    <div>
+      <h3>Tarjeta normal</h3>
+      <article class="tarjeta">
+        <span class="etiqueta">-20%</span>
+        <div class="recuadro"></div>
+        <h4>Mochila de montaña</h4>
+        <p class="precio">39,90 €</p>
+      </article>
+    </div>
+
+    <div>
+      <h3>Con overflow: hidden</h3>
+      <article class="tarjeta tarjeta--recortada">
+        <span class="etiqueta">-20%</span>
+        <div class="recuadro"></div>
+        <h4>Mochila de montaña</h4>
+        <p class="precio">39,90 €</p>
+      </article>
+    </div>
+  </div>
+  <h2>Parte B · Caja de comentarios</h2>
+
+  <div class="comentarios">
+    <p><strong>Ana:</strong> Muy cómoda, la uso cada fin de semana.</p>
+    <p><strong>Luis:</strong> Las costuras son resistentes.</p>
+    <p><strong>Marta:</strong> Pesa poco y cabe de todo.</p>
+    <p><strong>Pablo:</strong> El cierre se atasca a veces.</p>
+    <p><strong>Elena:</strong> Buena relación calidad-precio.</p>
+    <p><strong>Carlos:</strong> La recomiendo para rutas de un día.</p>
+    <p><strong>Sofía:</strong> Llegó antes de lo previsto.</p>
+  </div>
+
+  <h3>visibility: hidden vs display: none</h3>
+  <p>Hay cuatro tarjetas. La 2 usa <code>visibility: hidden</code> y la 3 usa <code>display: none</code>.</p>
+
+  <div class="columna">
+    <article class="tarjeta">
+      <div class="recuadro"></div>
+      <h4>Tarjeta 1 (visible)</h4>
+      <p class="precio">39,90 €</p>
+    </article>
+
+    <article class="tarjeta oculta-visibility">
+      <div class="recuadro"></div>
+      <h4>Tarjeta 2 (visibility: hidden)</h4>
+      <p class="precio">39,90 €</p>
+    </article>
+
+    <article class="tarjeta oculta-display">
+      <div class="recuadro"></div>
+      <h4>Tarjeta 3 (display: none)</h4>
+      <p class="precio">39,90 €</p>
+    </article>
+
+    <article class="tarjeta">
+      <div class="recuadro"></div>
+      <h4>Tarjeta 4 (visible)</h4>
+      <p class="precio">39,90 €</p>
+    </article>
+  </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 20px 20px 60px;
+  color: #222;
+}
+
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-top: 15px; 
+}
+
+.tarjeta {
+  width: 300px;
+  box-sizing: border-box;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+  position: relative; 
+}
+
+.recuadro {
+  height: 120px;
+  border-radius: 8px;
+  background: #2e86ab;
+}
+
+.tarjeta h4 {
+  margin: 12px 0 4px;
+}
+
+.precio {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.etiqueta {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e4572e;
+  color: #fff;
+  font-weight: 700;
+}
+
+.tarjeta--recortada {
+  overflow: hidden;
+}
+
+.comentarios {
+  width: 300px;
+  height: 120px;
+  border: 2px solid #333;
+  padding: 8px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.comentarios p {
+  margin: 0 0 8px;}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;}
+
+.oculta-visibility {
+  visibility: hidden;
+}
+
+.oculta-display {
+  display: none;}
