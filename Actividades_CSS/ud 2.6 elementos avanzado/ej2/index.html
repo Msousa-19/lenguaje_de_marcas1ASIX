@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UD3.2 · Ej2 · Formulario con estados</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Alta de usuario</h1>
+
+  <form action="#" method="post">
+    <p>
+      <label for="id">Identificador de usuario</label>
+      <input type="text" id="id" name="id" value="USR-0001" readonly>
+    </p>
+
+    <p>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </p>
+
+    <p>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+      <label for="clave">Contraseña</label>
+      <input type="password" id="clave" name="clave" required>
+    </p>
+
+    <p>
+      <label for="promo">Código promocional</label>
+      <input type="text" id="promo" name="promo" value="PROMO-2026" disabled>
+    </p>
+
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" id="sexo-h" name="sexo" value="hombre">
+      <label for="sexo-h">Hombre</label>
+      <input type="radio" id="sexo-m" name="sexo" value="mujer">
+      <label for="sexo-m">Mujer</label>
+      <input type="radio" id="sexo-o" name="sexo" value="otro">
+      <label for="sexo-o">Otro</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Aficiones</legend>
+      <input type="checkbox" id="af-lectura" name="aficiones" value="lectura">
+      <label for="af-lectura">Lectura</label>
+      <input type="checkbox" id="af-deporte" name="aficiones" value="deporte">
+      <label for="af-deporte">Deporte</label>
+      <input type="checkbox" id="af-musica" name="aficiones" value="musica">
+      <label for="af-musica">Música</label>
+    </fieldset>
+
+    <p>
+      <button type="submit">Crear cuenta</button>
+    </p>
+  </form>
+</body>
+</html>

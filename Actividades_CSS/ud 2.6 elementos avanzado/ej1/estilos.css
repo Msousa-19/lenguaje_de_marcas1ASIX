@@ -1,0 +1,42 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 24px;
+  color: #222;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 480px;
+}
+
+th,
+td {
+  padding: 10px 14px;
+  text-align: left;
+}
+
+th {
+  background: #1d4e5f;
+  color: #fff;
+}
+
+tr:nth-child(odd):not(:first-child) {
+  background: #e8f1f4;
+}
+
+tr:nth-child(even) {
+  background: #ffffff;
+}
+
+tr:not(:first-child):hover {
+  background: #ffe94d;
+}
+
+li:nth-child(3n+1) {
+  color: #c0392b;
+}
+
+li:nth-child(3) {
+  font-weight: bold;
+}
