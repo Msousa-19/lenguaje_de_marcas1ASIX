@@ -1,0 +1,23 @@
+/*divs*/
+.primer_div {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contenedor {
+    text-align: center;
+}
+.caja {
+  display: inline-block; /*alinear */
+  width: 30%;
+  vertical-align: top;   /* Para que no se desalineen*/
+  border: 2px solid rgb(162, 97, 0);
+  margin: 0 1%; /* un pequelo margen*/
+}
+/*colores para poner en cada caja*/
+.blanco {background-color: antiquewhite;}
+.azul {background-color: aquamarine;}
+.amarillo {background-color: lightgoldenrodyellow;}
+
+/*modificar el tamaño de la imagen manteniendo la caja*/
