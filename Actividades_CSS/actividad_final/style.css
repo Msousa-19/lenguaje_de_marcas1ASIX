@@ -14,14 +14,14 @@ body {
 
 /*Encabezado*/
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 0.5rem 1rem;
     background-color: #eee;
+    /* Contiene el float del logo */
+    overflow: hidden;
 }
 
 header .logo {
+    float: left;
     width: 50px;
     height: 50px;
 }
@@ -71,6 +71,7 @@ nav a:hover {
 }
 
 /*Sección con las redes sociales*/
+section {
     font-size: 0;
 }
 
@@ -83,6 +84,7 @@ article {
     border: 2px solid #fff;
     font-size: 1rem;
 }
+
 article:nth-child(1) {
     background-color: rgba(162, 179, 188, 0.5);
 }
@@ -106,12 +108,14 @@ article:nth-child(5) {
 article:nth-child(6) {
     background-color: rgba(156, 154, 203, 0.5);
 }
+
 article img {
     float: left;
     width: 45px;
     height: 45px;
     margin-right: 0.6rem;
 }
+
 /* overflow: hidden mantiene el texto en su columna junto a la imagen */
 article .texto {
     overflow: hidden;
@@ -138,13 +142,12 @@ footer {
 }
 
 footer .redes {
-    display: flex;
-    justify-content: center;
     padding: 0.5rem 0;
+    text-align: center;
 }
 
 footer .redes a {
-    display: block;
+    display: inline-block;
 }
 
 footer img {
@@ -174,7 +177,6 @@ footer img:hover {
     transform: scale(1.25);
     z-index: 1;
 }
-
 
 @media (max-width: 700px) {
     article {
