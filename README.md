@@ -10,3 +10,5 @@ Repositorio del módulo de Lenguaje de Marcas y Sistemas de Gestión de Informac
 * [📄 css listas](./Actividades_CSS/ud%202.2%20css%20listas/info.txt)
 * [📄 formularios](./Actividades_CSS/ud%202.3%20formularios/info.txt)
 * [📄 divs](./Actividades_CSS/ud%202.4%20divs/info.txt)
+* [📄 posicionamiento](./Actividades_CSS/ud%202.5%20posicionamiento/info.txt)
+* [📄 elementos avanzado](./Actividades_CSS/ud%202.4%20elementos_avanzado/info.txt)
