@@ -12,3 +12,5 @@ Repositorio del módulo de Lenguaje de Marcas y Sistemas de Gestión de Informac
 * [📄 divs](./Actividades_CSS/ud%202.4%20divs/info.txt)
 * [📄 posicionamiento](./Actividades_CSS/ud%202.5%20posicionamiento/info.txt)
 * [📄 elementos avanzado](./Actividades_CSS/ud%202.4%20elementos_avanzado/info.txt)
+* [📄 posicionamiento](./Actividades_CSS/ud%202.5%20posicionamiento/info.txt)
+* [📄 elementos_avanzado](./Actividades_CSS/ud%202.6%20elementos%20avanzado/info.txt)
